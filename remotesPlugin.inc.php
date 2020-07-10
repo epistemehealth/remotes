@@ -33,7 +33,7 @@ class RemotesPlugin extends GenericPlugin {
          * @return string
          */
         public function getDescription() {
-                return __('plugins.generic.externalOAI.description');
+                return __('plugins.generic.remotes.description');
         }
 
         /**
