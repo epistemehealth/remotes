@@ -28,7 +28,7 @@
                                 type="text"
                                 id="publicationStatement"
                                 value=$publicationStatement
-                                description="plugins.generic.externalOAI.publicationStatement.description"
+                                description="plugins.generic.remotes.publicationStatement.description"
                         }
                 {/fbvFormSection}
         {/fbvFormArea}
