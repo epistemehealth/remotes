@@ -1,3 +1,3 @@
 <?php
-require_once('remotesPlugin.inc.php');
-return new remotesPlugin();
+require_once('RemotesPlugin.inc.php');
+return new RemotesPlugin();
