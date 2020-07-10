@@ -1,6 +1,6 @@
 <?php
 import('lib.pkp.classes.form.Form');
-class RemotesSettings extends Form {
+class RemotesPluginSettingsForm extends Form {
 
         /** @var PluginTemplatePlugin  */
         public $plugin;

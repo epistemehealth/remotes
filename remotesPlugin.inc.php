@@ -110,8 +110,8 @@ class RemotesPlugin extends GenericPlugin {
                         case 'settings':
 
                                 // Load the custom form
-                                $this->import('remotesPluginSettingsForm');
-                                $form = new remotesPluginSettingsForm($this);
+                                $this->import('RemotesPluginSettingsForm');
+                                $form = new RemotesPluginSettingsForm($this);
 
                                 // Fetch the form the first time it loads, before
                                 // the user has tried to save it
