@@ -9,13 +9,13 @@
  *}
 <script>
         $(function() {ldelim}
-                $('#pluginTemplateSettings').pkpHandler('$.pkp.controllers.form.AjaxFormHandler');
+                $('#remotesPluginSettings').pkpHandler('$.pkp.controllers.form.AjaxFormHandler');
         {rdelim});
 </script>
 
 <form
         class="pkp_form"
-        id="pluginTemplateSettings"
+        id="remotesPluginSettings"
         method="POST"
         action="{url router=$smarty.const.ROUTE_COMPONENT op="manage" category="generic" plugin=$pluginName verb="settings" save=true}"
 >
